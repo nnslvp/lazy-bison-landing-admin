@@ -17,7 +17,6 @@ collections:
       - label: 'Posts with Author'
         field: author
         pattern: '/S'
-        default: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
