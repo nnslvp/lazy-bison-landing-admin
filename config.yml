@@ -16,7 +16,7 @@ collections:
     view_filters:
       - label: 'Posts with Author'
         field: author
-        pattern: '.+'
+        pattern: '/S'
         default: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
