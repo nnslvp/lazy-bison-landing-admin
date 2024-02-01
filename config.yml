@@ -2,17 +2,17 @@ backend:
   name: github
   repo: AndrewMatsiash/andrewmatsiash.github.io
   branch: main # Branch to update (optional; defaults to master)
-media_folder: static/img
-public_folder: /img
+media_folder: static/images
+public_folder: /images
 site_url: https://andrewmatsiash.github.io/
 collections:
   - name: 'Blog'
     label: 'Post'
     folder: 'content/blogs'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{year}}/{{month}}/{{title}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -33,7 +33,7 @@ collections:
         }
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Categories', name: 'blog_categories', widget: 'list' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown', mode: 'raw' }
   - name: 'Testimonials'
     label: 'Testimonial'
     folder: 'content/testimonials'
