@@ -13,9 +13,10 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
-    filter:
-      field: author
-      value: '{{author}}'
+    view_filters:
+      - label: 'Posts with Author'
+        field: author
+        pattern: '.+'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
