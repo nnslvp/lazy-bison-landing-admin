@@ -13,9 +13,9 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
-    filter:
-      field: 'author'
-      value: != ''
+    files:
+      - file: '*.md'
+      - file: '!_index.md'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
