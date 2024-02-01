@@ -14,10 +14,10 @@ collections:
     editor:
       preview: false
     fields:
-     - label: 'SEO'
-        name: 'SEO'
-        widget: 'object'
-        fields:
+      - label: 'SEO'
+         name: 'SEO'
+         widget: 'object'
+         fields:
               - { label: 'description', name: 'description', widget: 'string' }
               - { label: 'keywords', name: 'keywords', widget: 'string' }
               - { label: 'author', name: 'author', widget: 'string' }
