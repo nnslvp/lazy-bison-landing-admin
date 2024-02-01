@@ -13,6 +13,11 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
+    view_filters:
+      - label: 'Posts with Author'
+        field: author
+        pattern: '.+'
+        default: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -34,11 +39,6 @@ collections:
       - { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Categories', name: 'blog_categories', widget: 'list' }
       - { label: 'Body', name: 'body', widget: 'markdown', mode: 'raw' }
-      view_filters:
-      - label: "Posts with Author"
-        field: author
-        pattern: '.+'
-        default: true
   - name: 'Testimonials'
     label: 'Testimonial'
     folder: 'content/testimonials'
