@@ -45,8 +45,8 @@ collections:
           label: 'Avatar',
           name: 'avatar',
           widget: 'image',
-          media_folder: '/assets/images/testimonials/{{name}}',
-          public_folder: '/images/testimonials/{{name}}',
+          media_folder: '/assets/images/cases/{{fields.name}}/{{name}}',
+          public_folder: '/images/cases/{{fields.name}}/{{name}}',
         }
       - { label: name, name: name, widget: string }
       - { label: position, name: position, widget: string }
