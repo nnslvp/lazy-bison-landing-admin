@@ -13,9 +13,8 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
-    filter: # Вот здесь вы можете указать фильтр
+    filter:
       field: author
-      value: true
       pattern: '\S'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
