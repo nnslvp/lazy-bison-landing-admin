@@ -16,7 +16,7 @@ collections:
     view_filters:
       - label: 'Posts with Author'
         field: author
-        pattern: '.+'
+        value: 'Automating Deployments with Kamal and GitHub Actions'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
