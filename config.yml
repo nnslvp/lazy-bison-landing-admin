@@ -13,11 +13,10 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
-    view_filters:
-      - label: 'Posts with Author'
-        field: author
-        pattern: '.+'
-      - default: true
+    files:
+      - file: '_index.md'
+        label: 'Collection Settings'
+        nameable: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
