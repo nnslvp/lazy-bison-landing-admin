@@ -14,9 +14,9 @@ collections:
     editor:
       preview: false
     view_filters:
-      - label: 'Posts with Author'
+      - label: "Alice's and Bob's Posts"
         field: author
-        value: 'Automating Deployments with Kamal and GitHub Actions'
+        pattern: '\S'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
