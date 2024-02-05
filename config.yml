@@ -53,8 +53,8 @@ collections:
           label: 'Avatar',
           name: 'avatar',
           widget: 'image',
-          media_folder: '/assets/images/cases/{{fields.name}}/{{name}}',
-          public_folder: '/images/cases/{{fields.name}}/{{name}}',
+          media_folder: '/assets/images/cases/{{fields.name}}/',
+          public_folder: '/images/cases/{{fields.name}}/',
         }
       - { label: position, name: position, widget: string }
       - { label: description, name: description, widget: text }
@@ -142,6 +142,6 @@ collections:
               label: 'image project',
               name: 'image_path',
               widget: 'image',
-              media_folder: '/assets/images/cases/{{fields.title}}/{{name}}',
-              public_folder: '/images/cases/{{fields.title}}/{{name}}',
+              media_folder: '/assets/images/cases/{{fields.title}}/',
+              public_folder: '/images/cases/{{fields.title}}/',
             }
