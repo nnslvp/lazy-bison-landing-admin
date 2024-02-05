@@ -79,8 +79,8 @@ collections:
           label: 'Preview',
           name: 'image',
           widget: 'image',
-          media_folder: '/assets/images/cases/{{fields.title}}/{{name}}',
-          public_folder: '/images/cases/{{fields.title}}/{{name}}',
+          media_folder: '/assets/images/cases/{{fields.title}}/',
+          public_folder: '/images/cases/{{fields.title}}/',
         }
       - { label: 'Categories', name: 'case_categories', widget: 'list' }
       - label: 'Section General Information'
