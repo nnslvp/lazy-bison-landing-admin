@@ -79,7 +79,7 @@ collections:
           label: 'Preview',
           name: 'image',
           widget: 'image',
-          media_folder: '/assets/images/cases/{{name}}',
+          media_folder: '/assets/images/cases/{{fields.title}}/{{name}}',
           public_folder: '/images/cases/{{fields.title}}/{{name}}',
         }
       - { label: 'Categories', name: 'case_categories', widget: 'list' }
