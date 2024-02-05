@@ -2,7 +2,7 @@ backend:
   name: github
   repo: AndrewMatsiash/andrewmatsiash.github.io
   branch: main # Branch to update (optional; defaults to master)
-media_folder: static/images
+media_folder: assets/images
 public_folder: /images
 site_url: https://andrewmatsiash.github.io/
 collections:
