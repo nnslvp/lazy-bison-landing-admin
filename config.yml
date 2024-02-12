@@ -2,10 +2,10 @@ backend:
   name: github
   repo: AndrewMatsiash/andrewmatsiash.github.io
   branch: main # Branch to update (optional; defaults to master)
-  site_url: https://andrewmatsiash.github.io/
 media_folder: assets/images/
 public_folder: assets/images/
-# site_url: https:/main--admin-cms-lazy-bison-test.netlify.app/
+site_url: https://andrewmatsiash.github.io/
+
 collections:
   - name: 'Blog'
     label: 'Post'
