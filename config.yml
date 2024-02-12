@@ -27,15 +27,15 @@ collections:
           label: 'Preview',
           name: 'image',
           widget: 'image',
-          media_folder: '/assets/images/blogs/{{name}}',
-          public_folder: '/images/blogs/{{name}}',
+          media_folder: '/assets/images/blogs/',
+          public_folder: '/images/blogs/',
         }
       - {
           label: 'Avatar',
           name: 'avatar',
           widget: 'image',
-          media_folder: '/assets/images/blogs/{{name}}',
-          public_folder: '/images/blogs/{{name}}',
+          media_folder: '/assets/images/blogs/',
+          public_folder: '/images/blogs/'
           required: false,
         }
       - { label: 'Author', name: 'author', widget: 'string' }
