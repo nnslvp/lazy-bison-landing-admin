@@ -4,7 +4,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   site_url: https://andrewmatsiash.github.io/
 media_folder: assets/images/
-public_folder: images/
+public_folder: assets/images/
 # site_url: https:/main--admin-cms-lazy-bison-test.netlify.app/
 collections:
   - name: 'Blog'
