@@ -29,7 +29,7 @@ collections:
           widget: 'image',
           media_folder: '/assets/images/blogs/{{name}}',
           public_folder: '/images/blogs/{{name}}',
-          preview_path: https://andrewmatsiash.github.io/{{slug}}
+          preview_path: 'https://andrewmatsiash.github.io/{{slug}}';,
         }
       - {
           label: 'Avatar',
