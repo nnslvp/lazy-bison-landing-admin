@@ -35,7 +35,7 @@ collections:
           name: 'avatar',
           widget: 'image',
           media_folder: '/assets/images/blogs/',
-          public_folder: '/images/blogs/'
+          public_folder: '/images/blogs/',
           required: false,
         }
       - { label: 'Author', name: 'author', widget: 'string' }
