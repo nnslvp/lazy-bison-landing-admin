@@ -85,9 +85,8 @@ collections:
             widget: 'list'
             max: 9
             fields:
-              - { label: 'Street Address', name: 'street', widget: 'string' }
-              - { label: 'City', name: 'city', widget: 'string' }
-              - { label: 'Postal Code', name: 'post-code', widget: 'string' }
+              - { label: 'title', name: 'title', widget: 'string' }
+              - { label: 'description', name: 'description', widget: 'string' }
       - label: 'Section Solution Table'
         name: 'body'
         widget: 'markdown'
