@@ -4,7 +4,6 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: static/images
 public_folder: /images
-site_url: https://andrewmatsiash.github.io/
 collections:
   - name: 'Blog'
     label: 'Post'
@@ -29,7 +28,6 @@ collections:
           widget: 'image',
           media_folder: '/assets/images/blogs/{{name}}',
           public_folder: '/images/blogs/{{name}}',
-          preview_path: 'https://andrewmatsiash.github.io/{{slug}}',
         }
       - {
           label: 'Avatar',
