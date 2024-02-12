@@ -34,7 +34,7 @@ collections:
     folder: 'content/testimonials'
     create: true
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: name, name: name, widget: string }
       - { label: 'Avatar', name: 'avatar', widget: 'image' }
