@@ -130,6 +130,7 @@ collections:
         name: 'roadmap'
         widget: 'list'
         min: 1
+        required: true
         fields:
           - { label: 'date', name: 'date', widget: 'string', required: true }
           - {
@@ -142,6 +143,7 @@ collections:
         name: 'gallery_images'
         widget: 'list'
         min: 1
+        required: true
         fields:
           - {
               label: 'image project',
