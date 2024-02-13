@@ -58,7 +58,13 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Preview', name: 'image', widget: 'image' }
-      - { label: 'Categories', name: 'case_categories', widget: 'list', min: 1 }
+      - {
+          label: 'Categories',
+          name: 'case_categories',
+          widget: 'list',
+          min: 1,
+          required: true,
+        }
       - label: 'Section General Information'
         name: 'project_info'
         widget: 'object'
@@ -86,8 +92,18 @@ collections:
             min: 1
             max: 9
             fields:
-              - { label: 'title', name: 'title', widget: 'string' }
-              - { label: 'description', name: 'description', widget: 'string' }
+              - {
+                  label: 'title',
+                  name: 'title',
+                  widget: 'string',
+                  required: true,
+                }
+              - {
+                  label: 'description',
+                  name: 'description',
+                  widget: 'string',
+                  required: true,
+                }
       - label: 'Section Solution Table'
         name: 'body'
         widget: 'markdown'
@@ -103,18 +119,33 @@ collections:
         min: 1
         max: 10
         fields:
-          - { label: 'tool', name: 'tool', widget: 'string' }
-          - { label: 'technologies', name: 'technologies', widget: 'string' }
+          - { label: 'tool', name: 'tool', widget: 'string', required: true }
+          - {
+              label: 'technologies',
+              name: 'technologies',
+              widget: 'string',
+              required: true,
+            }
       - label: 'Section Roadmap'
         name: 'roadmap'
         widget: 'list'
         min: 1
         fields:
-          - { label: 'date', name: 'date', widget: 'string' }
-          - { label: 'activities', name: 'activities', widget: 'list' }
+          - { label: 'date', name: 'date', widget: 'string', required: true }
+          - {
+              label: 'activities',
+              name: 'activities',
+              widget: 'list',
+              required: true,
+            }
       - label: 'Section Gallery'
         name: 'gallery_images'
         widget: 'list'
         min: 1
         fields:
-          - { label: 'image project', name: 'image_path', widget: 'image' }
+          - {
+              label: 'image project',
+              name: 'image_path',
+              widget: 'image',
+              required: true,
+            }
