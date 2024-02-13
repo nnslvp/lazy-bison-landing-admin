@@ -27,7 +27,7 @@ collections:
       - { label: 'Preview', name: 'image', widget: 'image' }
       - { label: 'Avatar', name: 'avatar', widget: 'image', required: false }
       - { label: 'Author', name: 'author', widget: 'string' }
-      - { label: 'Categories', name: 'blog_categories', widget: 'list' }
+      - { label: 'Categories', name: 'blog_categories', widget: 'list', min: 1 }
       - { label: 'Body', name: 'body', widget: 'markdown', mode: 'raw' }
   - name: 'Testimonials'
     label: 'Testimonial'
@@ -58,7 +58,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Preview', name: 'image', widget: 'image' }
-      - { label: 'Categories', name: 'case_categories', widget: 'list' }
+      - { label: 'Categories', name: 'case_categories', widget: 'list', min: 1 }
       - label: 'Section General Information'
         name: 'project_info'
         widget: 'object'
@@ -83,6 +83,7 @@ collections:
           - label: 'issues'
             name: 'issues'
             widget: 'list'
+            min: 1
             max: 9
             fields:
               - { label: 'title', name: 'title', widget: 'string' }
@@ -99,6 +100,7 @@ collections:
       - label: 'Section Tools Technologies'
         name: 'tools_and_technologies'
         widget: 'list'
+        min: 1
         max: 10
         fields:
           - { label: 'tool', name: 'tool', widget: 'string' }
@@ -106,11 +108,13 @@ collections:
       - label: 'Section Roadmap'
         name: 'roadmap'
         widget: 'list'
+        min: 1
         fields:
           - { label: 'date', name: 'date', widget: 'string' }
           - { label: 'activities', name: 'activities', widget: 'list' }
       - label: 'Section Gallery'
         name: 'gallery_images'
         widget: 'list'
+        min: 1
         fields:
           - { label: 'image project', name: 'image_path', widget: 'image' }
