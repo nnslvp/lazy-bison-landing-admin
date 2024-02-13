@@ -3,7 +3,7 @@ backend:
   repo: AndrewMatsiash/andrewmatsiash.github.io
   branch: main # Branch to update (optional; defaults to master)
 media_folder: assets/images/
-public_folder: assets/images/
+public_folder: images/
 site_url: https://andrewmatsiash.github.io/
 
 collections:
