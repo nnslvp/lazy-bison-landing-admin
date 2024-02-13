@@ -81,7 +81,7 @@ collections:
         fields:
           - { label: 'subtitle', name: 'subtitle', widget: 'string' }
           - label: 'issues'
-            name: 'issue'
+            name: 'issues'
             widget: 'list'
             max: 9
             fields:
@@ -91,7 +91,7 @@ collections:
         name: 'body'
         widget: 'markdown'
         mode: 'raw'
-      - label: 'Section Solution'
+      - label: 'Section Value Driven Results'
         name: 'value_driven_results'
         widget: 'object'
         fields:
