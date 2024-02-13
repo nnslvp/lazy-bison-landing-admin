@@ -154,7 +154,7 @@ collections:
         max: 10
         min: 1
         required: true
-        fields:
+        field:
           - {
               label: 'image project',
               name: 'image_path',
