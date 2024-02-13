@@ -33,6 +33,7 @@ collections:
           widget: 'list',
           min: 1,
           max: 10,
+          required: true,
         }
       - { label: 'Body', name: 'body', widget: 'markdown', mode: 'raw' }
   - name: 'Testimonials'
@@ -149,7 +150,7 @@ collections:
       - label: 'Section Gallery'
         name: 'gallery_images'
         widget: 'list'
-        max: 3
+        max: 10
         min: 1
         required: true
         fields:
