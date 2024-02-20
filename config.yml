@@ -121,8 +121,8 @@ collections:
         widget: 'object'
         fields:
           - { label: 'subtitle', name: 'subtitle', widget: 'string' }
-          - label: 'Improvements'
-            name: 'logisticsImprovements'
+          - label: 'results'
+            name: 'results'
             widget: 'list'
             min: 1
             max: 8
