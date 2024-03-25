@@ -9,7 +9,7 @@ site_url: https://thelazybison.com/
 collections:
   - name: 'Blog'
     label: 'Post'
-    folder: 'content/blogs'
+    folder: 'content/blog'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
