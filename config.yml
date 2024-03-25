@@ -121,6 +121,18 @@ collections:
         widget: 'object'
         fields:
           - { label: 'subtitle', name: 'subtitle', widget: 'string' }
+          - label: 'results'
+            name: 'results'
+            widget: 'list'
+            min: 1
+            max: 8
+            fields:
+              - {
+                  label: 'description',
+                  name: 'description',
+                  widget: 'string',
+                  required: true,
+                }
       - label: 'Section Tools Technologies'
         name: 'tools_and_technologies'
         widget: 'list'
