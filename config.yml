@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: nnslvp/lazy-bison-landing-admin
+  repo: nnslvp/lazy-bison-landing
   branch: master # Branch to update (optional; defaults to master)
 media_folder: assets/images/
 public_folder: images/
