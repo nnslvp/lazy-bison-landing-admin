@@ -133,6 +133,7 @@ collections:
                   widget: 'string',
                   required: true,
                 }
+          - { label: 'conclusion', name: 'conclusion', widget: 'string' }
       - label: 'Section Tools Technologies'
         name: 'tools_and_technologies'
         widget: 'list'
